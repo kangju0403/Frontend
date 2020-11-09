@@ -1,0 +1,100 @@
+*{
+ margin: 0;
+ padding: 0;
+ }
+body{
+    font-family: "Times New Roman", Times, serif;
+    background: #fff;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    height:100vh;
+    overflow: hidden;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height:60px;
+    background: rgba(255, 255, 255, 0)
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+.navbar ul li{
+    margin: 0 1rem;
+    padding: 1rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 900;
+    font-size: large;
+}
+.navbar ul li a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: lime;
+}
+.logo{
+    position: absolute;
+    top: 8px;
+    left: 16px;  
+    width: 400px;
+    height: 100px;
+}
+.electron{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.speed{
+    font-family: "Times New Roman", Times, serif;
+    background: #fff;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    height:100vh;
+    overflow: hidden;
+}
+.range{
+    font-family: "Times New Roman", Times, serif;
+    background: #fff;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    height:100vh;
+    overflow: hidden;
+}
+.acceleration{
+    font-family: "Times New Roman", Times, serif;
+    background: #fff;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    height:100vh;
+    overflow: hidden;
+}
+section {
+    width: 100%;
+    height: 100vh;    
+}
+section h1 {
+    font-size: 3rem;
+}
+section p {
+    font-size: 1.5rem;
+}
+section#home {
+    background: url('images/electron.png') no-repeat center center/cover;;
+}
