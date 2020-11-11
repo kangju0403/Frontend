@@ -95,8 +95,14 @@ section p {
 section#home {
     background: url('images/Electron\ title\ render.png') no-repeat center center/cover;
 }
-    section#stats {
-    background: url("images/second.png") no-repeat center center/cover;
+section#stats {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:60% 20% 20%;
+    grid-template-rows: 50% 50%;
+    /* background: url("images/second.png") no-repeat center center/cover; */
 }
 .contact-box h1{
    float: left; 
@@ -132,4 +138,12 @@ section#home {
     font-size: 18px;
     cursor: pointer;
     margin: 12px;
+}
+.stat{
+    background: blue;
+
+}
+.stat:nth-child(even){
+    background: lime;
+
 }
