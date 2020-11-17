@@ -24,14 +24,13 @@ body{
     height:60px;
     background: rgba(255, 255, 255, 0);
     display: grid;
-    grid-template-columns:20% 60% 20%;
+    grid-template-columns:30% 40% 30%;
 }
 .navbar ul{
     display: flex;
     list-style: none;
     width: 100%;
     justify-content: center;
-    margin-right: 225px;
 }
 .navbar ul li{
     margin: 0 1rem;
@@ -43,22 +42,30 @@ body{
     font-weight: 600;
     font-size: 95%;
     color: black;
+    float: center;
 }
 .navbar ul li a:hover {
     text-decoration: none;
     text-transform: uppercase;
     color:lime;
-}    
+}
+.social_media{
+    float: right;
+    justify-content: right;
+
+}
 .navbar ol{
     display: flex;
     list-style: none;
     width: 100%;
-    justify-content: center;
-    margin-left: 45px;
+    margin-left: 50%;
+
 }
 .navbar ol li a{
     text-decoration: none;
     text-transform: uppercase;
+
+
 }
 .navbar ol li a:hover {
     text-decoration: none;
@@ -67,11 +74,11 @@ body{
 }    
 .fa {
     padding: 10px;
+    margin: 5px 5px;
     font-size: 80px;
     width: 20px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 5px;
     border-radius: 50%;
   }
 .fa-facebook {
@@ -147,25 +154,27 @@ section#about {
     height: 100vh;
     margin: 0 auto;
     display: grid;
-    grid-template-columns:60% 40%;  
+    grid-template-columns:50% 50%; 
     background: url("images/flipped\ render\ right\ corner.png") no-repeat center center/cover;
 }
+.about{
+    margin-top: 30%;
+}
 .title{
-    margin-top: 300px;
     line-height: 1.2;
     text-decoration: none;
     text-align: center ;
     color: #000000;
-    font-weight: 500;
+    float: center; 
 }
 .text{
-    margin-top: 10px;
     font-size: 125%;
     line-height: 1.2;
     text-decoration: none;
     text-align: center ;
     color: #000000;
-    font-weight: 500;  
+    font-weight: 500; 
+    float: center; 
 }
 section#team {
     width: 100%;
